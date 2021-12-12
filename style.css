@@ -23,10 +23,10 @@ color: #333333;
 }
 
 main{
-  width:100%;
+width:100%;
 
 margin-left: 77px;
-margin-top: 200px;
+margin-top: 265px;
 display: flex;
 flex-direction: row;
 }
@@ -42,7 +42,8 @@ h2{
 width: 586px;
 height: 190px;
 
-
+margin-top: 0px;
+  
 font-family: "Space Mono";
 font-style: normal;
 font-weight: bold;
@@ -59,7 +60,8 @@ p{
 width: 381px;
 height: 108px;
 
-
+margin-top: 36px;
+  
 font-family: "Space Mono";
 font-style: normal;
 font-weight: normal;
@@ -76,6 +78,8 @@ color: #4F4F4F;
 
 width: 216px;
 height: 68px;
+  
+ margin-top: 64px;
   
 font-family: "Space Mono";
 font-style: normal;
@@ -132,18 +136,21 @@ left: 24px;
     top: 20px;
   }
   main{
+    margin-top: 109px;
   flex-direction: column;
   }
   .Scarecrow{
-  height: 286.83px;
-    width: 238px;
+  width: 286.83px;
+  height: 238px;
   margin-right: auto;
-  margin-bottom: 60px;
+
   }
 
   h2{
   width: 350px;
 height: 142px;
+    
+      margin-top: 60px;
 
     font-size: 48px;
 line-height: 71px;
@@ -152,11 +159,13 @@ line-height: 71px;
   width: 328px;
 height: 81px;
 
+    margin-top: 30px;
+    
     font-size: 18px;
 line-height: 27px;
   }
   footer{
-    margin-top:114px;
+    margin-top:66px;
   }
 
 }

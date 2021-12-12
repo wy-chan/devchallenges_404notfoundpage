@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
 
+body{
+max-width: 1440px;
+}
+
 h1{
 position: absolute;
 width: 133px;
@@ -18,20 +22,24 @@ text-transform: uppercase;
 color: #333333;
 }
 
-.Scarecrow{
+main{
+  width:100%;
 position: absolute;
 left: 77px;
 top: 265px;
+display: flex;
+flex-direction: row;
+}
+.Scarecrow{
 width: 539.22px;
 height:447.43px;
 }
 
 h2{
-position: absolute;
+
 width: 586px;
 height: 190px;
-left: 735px;
-top: 265px;
+
 
 font-family: "Space Mono";
 font-style: normal;
@@ -45,11 +53,10 @@ color: #333333;
 
 }
 p{
-position: absolute;
+
 width: 381px;
 height: 108px;
-left: 736px;
-top: 491px;
+
 
 font-family: "Space Mono";
 font-style: normal;
@@ -64,11 +71,10 @@ color: #4F4F4F;
 
 .home-button{
 /* Rectangle 71 */  
-position: absolute;
+
 width: 216px;
 height: 68px;
-left: 740px;
-top: 663px;
+
 
 /* Gray 1 */
 background: #333333;
@@ -77,11 +83,16 @@ background: #333333;
   cursor: pointer;
 }
 footer{
-position: absolute;
+width: 100%;
+margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+footer>span{
+
 width: 287px;
 height: 17px;
-left: 577px;
-top: 1039px;
+
 
 font-family: "Montserrat";
 font-style: normal;
@@ -107,24 +118,20 @@ em{
 left: 24px;
     top: 20px;
   }
-  .Scarecrow{
-left: 11.73%;
-right: 11.78%;
-top: 11.49%;
+  main{
+  flex-direction: column;
   }
   h2{
   width: 350px;
 height: 142px;
-left: 24px;
-top: 407px;
+
     font-size: 48px;
 line-height: 71px;
   }
   p{
   width: 328px;
 height: 81px;
-left: 23px;
-top: 579px;
+
     font-size: 18px;
 line-height: 27px;
   }

@@ -41,6 +41,7 @@
 See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 
 This is a 404 Not Found Page.
+I learned to create a page based on the given design.
 
 
 ### Built With
@@ -48,7 +49,7 @@ This is a 404 Not Found Page.
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - HTML
-- CSS
+- CSS, flexbox
 
 ## Features
 

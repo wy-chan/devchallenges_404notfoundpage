@@ -42,7 +42,7 @@ See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 
 This is a **_404 Not Found_** Page.
 
-I learned to create a page based on the given design.
+I learnt to create a page based on the given design.
 
 
 ### Built With

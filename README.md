@@ -37,7 +37,7 @@
 ## Overview
 
 ![screenshot](screenshot.png)
-![screenshot](https://raw.githubusercontent.com/wy-chan/devchallenges_404notfoundpage/main/screenshot_mobile.png ){ width=50% }
+![screenshot](screenshot_mobile.png){:height="36px" width="36px"}
 
 See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 

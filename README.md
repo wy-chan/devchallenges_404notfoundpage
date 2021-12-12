@@ -70,4 +70,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@wy-chan](https://{github.com/wy-chan})
+- GitHub [@wy-chan](https://github.com/wy-chan)

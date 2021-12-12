@@ -37,7 +37,7 @@
 ## Overview
 
 ![screenshot](screenshot.png)
-![<img src="drawing.jpg" alt="drawing" width="200"/>](screenshot_mobile.png)
+![screenshot](screenshot_mobile.png)
 
 See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 

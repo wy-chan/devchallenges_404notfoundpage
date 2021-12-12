@@ -36,11 +36,11 @@
 
 ## Overview
 
-<img src="screenshot.png" alt="screenshot" height="400"><img src="screenshot_mobile.png" alt="screenshot" height="400">
+<img src="screenshot.png" alt="screenshot" height="400">  <img src="screenshot_mobile.png" alt="screenshot" height="400">
 
 See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 
-This is a 404 Not Found Page.
+This is a **404 Not Found** Page.
 
 I learned to create a page based on the given design.
 

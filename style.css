@@ -62,7 +62,7 @@ letter-spacing: -0.035em;
 color: #4F4F4F;
 }
 
-button{
+.home-button{
 /* Rectangle 71 */  
 position: absolute;
 width: 216px;
@@ -73,7 +73,9 @@ top: 663px;
 /* Gray 1 */
 background: #333333;
 }
-
+.home-button:hover{
+  cursor: pointer;
+}
 footer{
 position: absolute;
 width: 287px;
@@ -86,6 +88,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 17px;
+  
 /* identical to box height */
 
 text-align: center;
@@ -97,4 +100,40 @@ color: #BDBDBD;
 em{
   font-style: normal;
   font-weight: bold;
+}
+
+@media(max-width: 800px){
+  h1{
+left: 24px;
+    top: 20px;
+  }
+  .Scarecrow{
+left: 11.73%;
+right: 11.78%;
+top: 11.49%;
+  }
+  h2{
+  width: 350px;
+height: 142px;
+left: 24px;
+top: 407px;
+    font-size: 48px;
+line-height: 71px;
+  }
+  p{
+  width: 328px;
+height: 81px;
+left: 23px;
+top: 579px;
+    font-size: 18px;
+line-height: 27px;
+  }
+  .home-button{
+  left: 24px;
+top: 726px;
+  }
+  footer{
+    left: 46px;
+top: 908px;
+  }
 }

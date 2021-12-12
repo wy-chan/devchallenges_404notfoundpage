@@ -30,9 +30,11 @@ margin-top: 200px;
 display: flex;
 flex-direction: row;
 }
+
 .Scarecrow{
 width: 539.22px;
 height:447.43px;
+  margin-right:73px;
 }
 
 h2{
@@ -131,6 +133,11 @@ left: 24px;
   main{
   flex-direction: column;
   }
+  .Scarecrow{
+  margin-right: auto;
+  margin-bottom: 60px;
+  }
+
   h2{
   width: 350px;
 height: 142px;

@@ -24,9 +24,9 @@ color: #333333;
 
 main{
   width:100%;
-position: absolute;
-left: 77px;
-top: 265px;
+
+margin-left: 77px;
+margin-top: 200px;
 display: flex;
 flex-direction: row;
 }
@@ -82,13 +82,15 @@ background: #333333;
 .home-button:hover{
   cursor: pointer;
 }
+
 footer{
 width: 100%;
 margin-bottom: 40px;
   display: flex;
   justify-content: center;
 }
-footer>span{
+
+footer> span{
 
 width: 287px;
 height: 17px;
@@ -139,8 +141,5 @@ line-height: 27px;
   left: 24px;
 top: 726px;
   }
-  footer{
-    left: 46px;
-top: 908px;
-  }
+
 }

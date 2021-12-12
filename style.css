@@ -126,7 +126,7 @@ em{
   font-weight: bold;
 }
 
-@media(max-width: 800px){
+@media(max-width: 1000px){
   h1{
 left: 24px;
     top: 20px;

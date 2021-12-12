@@ -36,8 +36,8 @@
 
 ## Overview
 
-<img src="screenshot.png" alt="screenshot" width="200"/>
-![screenshot](screenshot_mobile.png)
+<img src="screenshot.png" alt="screenshot" height="600">
+<img src="screenshot_mobile.png" alt="screenshot" height="600">
 
 See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 

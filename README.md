@@ -36,8 +36,8 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/wy-chan/devchallenges_404notfoundpage/main/screenshot.png)
-![screenshot](https://raw.githubusercontent.com/wy-chan/devchallenges_404notfoundpage/main/screenshot_mobile.png)
+![screenshot](screenshot.png =500x)
+![screenshot](https://raw.githubusercontent.com/wy-chan/devchallenges_404notfoundpage/main/screenshot_mobile.png =250x)
 
 See demo here: https://wy-chan.github.io/devchallenges_404notfoundpage/
 

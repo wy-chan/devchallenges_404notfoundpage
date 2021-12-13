@@ -53,7 +53,6 @@ max-height:447.43px;
   float:right;
 }
 h2{
-
 margin-top: 0px;
 max-width:586px;
   
@@ -64,17 +63,13 @@ font-size: 64px;
 line-height: 95px;
 letter-spacing: -0.035em;
 
-/* Gray 1 */
 color: #333333;
 
 }
 p{
-
-margin-top: 36px;
-  
+margin-top: 36px; 
 max-width: 381px;
-
-  
+ 
 font-family: "Space Mono";
 font-style: normal;
 font-weight: normal;
@@ -82,16 +77,12 @@ font-size: 24px;
 line-height: 36px;
 letter-spacing: -0.035em;
 
-/* Gray 2 */
 color: #4F4F4F;
 }
 
 .home-button{
-/* Rectangle 71 */  
-
 width: 216px;
-height: 68px;
-  
+height: 68px;  
 margin-top: 64px;
   
 font-family: "Space Mono";
@@ -103,17 +94,16 @@ letter-spacing: -0.035em;
 text-transform: uppercase;
 color: #FFFFFF;
 
-/* Gray 1 */
 background: #333333;
 }
+
 .home-button:hover{
   cursor: pointer;
 }
 
 footer{
 padding-top: 24px;
-padding-bottom: 24px;
-  
+padding-bottom: 24px;  
 width: 100%;
 
   display: flex;
@@ -122,23 +112,17 @@ width: 100%;
 }
 
 footer> span{
-
 width: 287px;
 height: 17px;
-
 
 font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 17px;
-  
-/* identical to box height */
-
 text-align: center;
 
 color: #BDBDBD;
-
 }
 
 em{
@@ -151,22 +135,24 @@ em{
     margin-left:6.4%;
     margin-top: 20px;
   }
+  
   main{
   margin-top:64px;
   margin-left:6.4%;
   width:87.2%;
   flex-direction: column;
   }
+  
   .Scarecrow{
  margin-left: 6.1%;
 margin-right:auto;
     width:87.5%;
     height:87.5%;
   }
+  
   .Scarecrow-img{
 max-width:100%;
 max-height:100%;
-
   }
 
   h2{
@@ -176,6 +162,7 @@ line-height: 71px;
     
 max-width:100%;
   }
+  
   p{
     max-width:328px;
     margin-top: 30px; 

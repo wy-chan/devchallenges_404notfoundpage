@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
 
 body{
-max-width: 1440px;
+  height:100%;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100vh;
 }
 
 h1{
-position: absolute;
-width: 133px;
-height: 25px;
-left: 77px;
-top: 40px;
+  
+margin-left: 5.3%;
+margin-top: 3.7%;
+margin-bottom:0;
 
 font-family: "Inconsolata";
 font-style: normal;
@@ -20,29 +24,38 @@ letter-spacing: -0.08em;
 text-transform: uppercase;
 
 color: #333333;
+
 }
 
-main{
-width:100%;
 
-margin-left: 77px;
-margin-top: 265px;
+main{
+
+margin-left: 5.35%;
+margin-top:200px;
+  
+width:89.3%;
+
 display: flex;
 flex-direction: row;
 }
 
 .Scarecrow{
-width: 539.22px;
-height:447.43px;
-  margin-right:73px;
-}
+width: 41.9%;
+height:41.9%;
 
+margin-right:9.2%;
+}
+.Scarecrow-img{
+  width:100%;
+  height:100%;
+max-width:539.22px;
+max-height:447.43px;
+  float:right;
+}
 h2{
 
-width: 586px;
-height: 190px;
-
 margin-top: 0px;
+max-width:586px;
   
 font-family: "Space Mono";
 font-style: normal;
@@ -57,10 +70,10 @@ color: #333333;
 }
 p{
 
-width: 381px;
-height: 108px;
-
 margin-top: 36px;
+  
+max-width: 381px;
+
   
 font-family: "Space Mono";
 font-style: normal;
@@ -79,7 +92,7 @@ color: #4F4F4F;
 width: 216px;
 height: 68px;
   
- margin-top: 64px;
+margin-top: 64px;
   
 font-family: "Space Mono";
 font-style: normal;
@@ -98,11 +111,14 @@ background: #333333;
 }
 
 footer{
+padding-top: 24px;
+padding-bottom: 24px;
+  
 width: 100%;
-margin-bottom: 40px;
-  margin-top:308px;
+
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 footer> span{
@@ -132,40 +148,39 @@ em{
 
 @media(max-width: 1000px){
   h1{
-left: 24px;
-    top: 20px;
+    margin-left:6.4%;
+    margin-top: 20px;
   }
   main{
-    margin-top: 109px;
+  margin-top:64px;
+  margin-left:6.4%;
+  width:87.2%;
   flex-direction: column;
   }
   .Scarecrow{
-  width: 286.83px;
-  height: 238px;
-  margin-right: auto;
+ margin-left: 6.1%;
+margin-right:auto;
+    width:87.5%;
+    height:87.5%;
+  }
+  .Scarecrow-img{
+max-width:100%;
+max-height:100%;
 
   }
 
   h2{
-  width: 350px;
-height: 142px;
-    
-      margin-top: 60px;
-
-    font-size: 48px;
+margin-top: 60px;
+font-size: 48px;
 line-height: 71px;
+    
+max-width:100%;
   }
   p{
-  width: 328px;
-height: 81px;
-
-    margin-top: 30px;
-    
+    max-width:328px;
+    margin-top: 30px; 
     font-size: 18px;
-line-height: 27px;
-  }
-  footer{
-    margin-top:66px;
+    line-height: 27px;
   }
 
 }
